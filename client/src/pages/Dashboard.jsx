@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API = "https://your-weather-url.railway.app";
+const API = "https://weather-app-production-c0d0.up.railway.app";
 
 export default function Dashboard({ token, email, onLogout }) {
   const [city, setCity] = useState("");
