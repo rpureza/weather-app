@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API = "http://localhost:3002";
+const API = "https://your-weather-url.railway.app";
 
 export default function Register({ onSwitch }) {
   const [email, setEmail] = useState("");
